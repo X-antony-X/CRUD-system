@@ -12,7 +12,6 @@ function Form({ editingPlayer, setEditingPlayer }) {
     club: "",
   })
 
-  // لما أضغط Update
   useEffect(() => {
     if (editingPlayer) {
       setFormData({
